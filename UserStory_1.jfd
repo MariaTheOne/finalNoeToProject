@@ -1,0 +1,87 @@
+JFDML JFormDesigner: "8.2.4.0.393" Java: "21.0.6" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq t {space :p:34:p, par t {seq t {par l {seq {comp button3:::p::p, space :0:446:x}, seq {comp label1:::p:170:p, space ::190:x, comp label2:::p::p, space :::p, comp Sterne:::p::p}}, space :p:107:p}, seq t {space :p:10:p, comp button4:::p::p, space ::333:x, comp button2:::p::p, space :p:127:p}}}}"
+			"$verticalGroup": "par l {seq l {space :p:17:p, par b {comp label1::b:p::p, comp label2::b:::x, comp Sterne::b:p::p}, space u:::p, comp button3:::p::p, space ::235:x, par b {comp button4::b:p::p, comp button2::b:p::p}, space :p:29:p}}"
+		} ) {
+			name: "panel1"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Master Data Summary"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Category:"
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "Sterne"
+				"model": new javax.swing.DefaultComboBoxModel {
+					selectedItem: "1 Stern"
+					addElement( "1 Stern" )
+					addElement( "2 Stern" )
+					addElement( "3 " )
+					addElement( "4" )
+					addElement( "5" )
+				}
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "Save"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button3"
+				"text": "Help"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button4"
+				"text": "Log Out"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 665, 395 )
+		} )
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
